@@ -16,3 +16,56 @@ class HelloWorld {
         System.out.println(res);
     }
 }
+
+//rain 
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	    Scanner sc = new Scanner(System.in);
+	    int T = Integer.parseInt(nextInt());
+	    for(int i=0; i<T; i++){
+		    int X = Integer.parseInt(args[0]);
+		    if(X<3){
+		        System.out.println("LIGHT");
+		    }else if(X>=3 || X<7){
+		        System.out.println("MODERATE");
+		    }else{
+		        System.out.println("HEAVY");
+		    }
+	    }   
+		
+	}
+}
+
+//convert to permutation
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int n;  
+        Scanner sc=new Scanner(System.in);  
+        System.out.print("Enter the number of elements you want to store: "); 
+        n=sc.nextInt();  
+        int[] array = new int[10];  
+        System.out.println("Enter the elements of the array: ");  
+        for(int i=0; i<n; i++)  
+        {  
+            //reading array elements from the user   
+            array[i]=sc.nextInt();
+        }
+        for(int i = 0; i < Array.length; i++){
+            System.out.println(Array[i]);
+        }
+	}
+}
